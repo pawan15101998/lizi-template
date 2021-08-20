@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    position: relative;
+    height: inherit;
+    width: 45%;
+    background-color:#fff;
+}
+.right{
+    position: relative;
+    height: inherit;
+    width: 55%;
+    background-color: blue;
+    background-image: url(https://i.pinimg.com/564x/22/9e/3a/229e3adc9f0ff231ff8ad28869768327.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leftnav{
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+.leftnav i{
+    margin-right: 10px;
+}
+.rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightnav button{
+    padding: 5px 15px;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.rightnav i{
+    margin-right: 20px;
+
+}ul{
+    list-style-type: none;
+}
+.vertical{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 50%;
+    left: -25%;
+}
+ .left ul li a {
+color: black;
+text-decoration: none;
+margin-left: 10px;
+}
+.main-heading h1{
+position: absolute;
+top: 20%;
+left: 26.6%;
+font-size: 75px;
+font-family: "voyage";
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: #EFEFEF;
+    position: absolute;
+    bottom: 0;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 10%;
+    background-color: white;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+.image{
+    height: 200px;
+    width: 120px;
+    /* background-color: black; */
+}
+#one{
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    background-image: url(https://i.pinimg.com/564x/e5/50/ba/e550ba4a878d915b217006711c932d68.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#two{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/33/fb/34/33fb34d73a18f548a8f2477f4b339cec.jpg);
+}
+.right h1{
+    position: absolute;
+    color: #fff;
+    font-family: "voyage";
+    top: 32.5%;
+    font-size: 75px;
+}
+.gallay{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: #CEA57C;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main-heading h1 span{
+    display: none;
+}
+.img{
+    width:100px;
+    height:80%;
+}
+#rone{
+    background-image: url(https://i.pinimg.com/564x/65/5c/09/655c096437e6b710d1ffd01fc0da13dd.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+#rtwo{
+background-image: url(https://i.pinimg.com/564x/64/1b/94/641b94a480786692638f1c854275f78b.jpg);
+background-size: cover;
+background-position: center;
+}
+.gallay i{
+    color: #fff;
+}
+.right h1 span{
+    display: none;
+}
